@@ -1,0 +1,149 @@
+/* General page styling */
+body {
+    margin: 0;
+    background-color: #F5EBDD;
+    color: #4B3621;
+    font-family: Georgia, serif;
+}
+
+/* Header */
+header {
+    background-color: #6F4E37;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 15px;
+}
+
+header {
+    text-align: center;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 22px;
+}
+
+.navbar ul {
+list-style-type: none;
+background-color: #333300;
+display: flex;
+justify-content: center;
+}
+
+.navbar a {
+color: whitesmoke;
+text-decoration: none;
+padding: 0 30px;
+font-size: 1rem;
+font-family: Georgia, serif;
+}
+
+.navbar a:hover {
+background-color: #F4C2C2;
+color: white;
+}
+
+
+/* Class selector */
+.content {
+    background-color: #D4CAC1;
+    text-align: center;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.examples {
+    background-color: #FFFAF3;
+    text-align: center;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+/* Image styling */
+.portfolio-image {
+    display: block;
+    width: 250px;
+    max-width: 250px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+}
+
+.portfolio-image {
+    width: 300px;
+    height: auto;
+}
+
+/* ID selector */
+#about {
+    background-color: #E8D5BE;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+/* Button */
+button {
+    background-color: #8B5E3C;
+    color: white;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #5C3D2E;
+}
+
+/* Footer */
+footer {
+    background-color: #6F4E37;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    main {
+        margin: 15px auto;
+        padding: 10px;
+    }
+
+    .content {
+        padding: 15px;
+    }
+
+    .hero-image {
+        max-width: 100%;
+    }
+}
